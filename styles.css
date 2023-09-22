@@ -1,0 +1,97 @@
+body{
+    font-family:'Cabin Sketch', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-shrink: inherit;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:white;
+}
+.LoginBox{
+width: 440px;
+height: 500px;
+padding: 50px 40px;
+border-radius: 8px;
+box-sizing: 4px;
+box-shadow: rgb(38, 57, 77) 15px 20px 30px -10px;
+background:linear-gradient(35deg, darkgrey, black);
+color: white;
+
+}
+.LoginBox h1{
+    font-size: 75px;
+    text-align: center;
+    word-spacing: 0.05em;
+}
+.LoginBox .UseBox{
+    width: 100%;
+    height: 50px;
+    background: white;
+    margin: 30px 0;
+}
+
+.UseBox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+.UseBox input::placeholder{
+    color:black;
+    font-family: 'Cabin Sketch', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+.LoginBox .PassBox{
+    width: 100%;
+    height: 50px;
+    background: white;
+    margin: 30px 0;
+}
+
+.PassBox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+
+}
+
+.PassBox input::placeholder{
+    color: black;
+    font-family: 'Cabin Sketch', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+.LoginBox .butn{
+    width: 100%;
+    height: 40px;
+    background: white;
+    font-family: 'Cabin Sketch', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+.LoginBox .FP{
+    color: white;
+}
+
+.UseBox input:focus::placeholder{
+        color: transparent;
+        font-size: 10em;
+      }
+
+.PassBox input:focus::placeholder{
+        color: transparent;
+      }
+.LoginBox input{
+    font-size: xx-large;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+
+
+
+
