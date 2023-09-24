@@ -5,18 +5,18 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:white;
+    background-image: url("images/starry_sky_milky_way_200649_3840*2160.jpg"); 
 }
+
 .LoginBox{
-width: 440px;
-height: 500px;
-padding: 50px 40px;
+width: 400px;
+height: 410px;
+padding: 40px 30px;
 border-radius: 8px;
 box-sizing: 4px;
 box-shadow: rgb(38, 57, 77) 15px 20px 30px -10px;
 background:linear-gradient(35deg, darkgrey, black);
 color: white;
-
 }
 .LoginBox h1{
     font-size: 75px;
@@ -90,7 +90,6 @@ color: white;
     font-size: xx-large;
     font-family: 'Nanum Pen Script', cursive;
 }
-
 
 
 
